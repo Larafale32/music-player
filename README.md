@@ -6,22 +6,22 @@ Ce projet est une application web simple qui permet de lire de la musique depuis
 
 ## Structure du projet
 
+```
 music-player/
-│
-├── index.html # Page principale de l'application
-├── style.css # Feuille de style
-├── requirements.txt # Dépendances Python nécessaires (conversion audio)
-│
-├── assets/ # Ressources du projet
-│ ├── audio/ # Fichiers audio (en .mp3)
-│ ├── covers/ # Images des pochettes
-│ └── convert_wav_to_mp3.py # Script de conversion .wav → .mp3
-│ └── trackslist.json # Données JSON des musiques (titre, durée, chemins, etc.)
-│
-├── scripts/ # Code JavaScript du projet
-  ├── fetch.js # Récupération des données depuis le JSON
-  ├── affichage.js # Affichage dynamique et interactions
-  └── main.js # Fichier principal qui initialise le lecteur
+├── index.html                  # Page principale de l'application
+├── style.css                   # Feuille de style
+├── requirements.txt            # Dépendances Python nécessaires (conversion audio)
+├── assets/                     # Ressources du projet
+│   ├── audio/                  # Fichiers audio (en .mp3)
+│   ├── covers/                 # Images des pochettes
+│   ├── convert_wav_to_mp3.py   # Script de conversion .wav → .mp3
+│   └── trackslist.json         # Données JSON des musiques (titre, durée, chemins, etc.)
+├── scripts/                    # Code JavaScript du projet
+│   ├── fetch.js                # Récupération des données depuis le JSON
+│   ├── affichage.js            # Affichage dynamique et interactions
+│   └── main.js                 # Fichier principal qui initialise le lecteur
+```
+
 
 
 ---
