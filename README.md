@@ -41,8 +41,7 @@ music-player/
 ## Exécution
 
 ### Affichage de la page web
-Il suffit **d'ouvrir `index.html` dans un navigateur** moderne (Chrome, Firefox...).  
-Aucune installation de dépendances n’est nécessaire **pour l'utilisation standard**.
+voici l'url de la page : 'http://127.0.0.1:5500/index.html'
 
 ### Installation des dépendances Python (optionnel)
 Le fichier `requirements.txt` contient les bibliothèques nécessaires si vous souhaitez :
