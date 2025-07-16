@@ -6,24 +6,6 @@ Ce projet est une application web simple qui permet de lire de la musique depuis
 
 ## Structure du projet
 
-<<<<<<< HEAD
-music-player/
-│
-├── index.html # Page principale de l'application
-├── style.css # Feuille de style
-├── requirements.txt # Dépendances Python nécessaires (conversion audio)
-│
-├── assets/ # Ressources du projet
-│ ├── audio/ # Fichiers audio (en .mp3)
-│ ├── covers/ # Images des pochettes
-│ └── convert_wav_to_mp3.py # Script de conversion .wav → .mp3
-│ └── trackslist.json # Données JSON des musiques (titre, durée, chemins, etc.)
-│
-├── scripts/ # Code JavaScript du projet
- ├── fetch.js # Récupération des données depuis le JSON
- ├── affichage.js # Affichage dynamique et interactions
- └── main.js # Fichier principal qui initialise le lecteur
-=======
 ```
 music-player/
 ├── index.html                  # Page principale de l'application
@@ -39,10 +21,6 @@ music-player/
 │   ├── affichage.js            # Affichage dynamique et interactions
 │   └── main.js                 # Fichier principal qui initialise le lecteur
 ```
-
->>>>>>> 5560499c926a67a73660b7b50bd35c0e1c36b9d4
-
-
 ---
 
 ## Fonctionnement
@@ -60,12 +38,8 @@ music-player/
 ## Exécution
 
 ### Affichage de la page web
-<<<<<<< HEAD
-Il suffit **d'ouvrir `index.html` dans un navigateur** moderne (Chrome, Firefox...).  
-Aucune installation de dépendances n’est nécessaire **pour l'utilisation standard**.
-=======
+
 voici l'url de la page : 'https://larafale32.github.io/music-player/''
->>>>>>> 5560499c926a67a73660b7b50bd35c0e1c36b9d4
 
 ### Installation des dépendances Python (optionnel)
 Le fichier `requirements.txt` contient les bibliothèques nécessaires si vous souhaitez :
@@ -74,8 +48,3 @@ Le fichier `requirements.txt` contient les bibliothèques nécessaires si vous s
 
 ```bash
 pip install -r requirements.txt
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5560499c926a67a73660b7b50bd35c0e1c36b9d4
