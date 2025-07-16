@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecteur Audio</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <script type="module" src="scripts/main.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+
+</head>
+<body>
+
+ <main>
+  <section class="player-section">
+
+    <div class="cover">
+      <img src="assets/covers/brunet.jpg" alt="">
+    </div>
+
+    <div class="player-info">
+      <h2>Portishead</h2>
+      <div class="principal-artist">
+        <h3>Artist</h3>
+      </div>
+
+      <div class="controls">
+        <button id="prev"><i class="fa-solid fa-backward"></i></button>
+        <button id="play"><i class="fas fa-play"></i></button>
+        <button id="pause"><i class="fas fa-pause"></i></button>
+        <button id="next"><i class="fas fa-forward"></i></button>
+      </div>
+
+      <div class="time-bar">
+        <span id="current-time">0:00</span>
+        <input type="range" id="progress" value="0" min="0" max="100">
+        <span id="duration">4:53</span>
+      </div>
+    </div>
+
+    <audio id="audio" preload="auto"></audio>
+
+    <section class="next-tunes">
+      <div class="title">
+        <h1>Next tracks</h1>
+      </div>
+      <article class="tunes-container">
+          <div class="next-tune">
+            <div class="next-tune-cover">
+              <img src="assets/covers/brunet.jpg" alt="">
+            </div>
+             <div class="infos-track">
+                <h2>music name</h2>
+                <h3>Artist</h3>
+             </div>
+          </div>
+
+          <div class="next-tune">
+            <div class="next-tune-cover">
+              <img src="assets/covers/brunet.jpg" alt="">
+            </div>
+            <div class="infos-track">
+              <h2>music name</h2>
+              <h3>Artist</h3>
+            </div>
+          </div>
+
+          <div class="next-tune">
+            <div class="next-tune-cover">
+              <img src="assets/covers/brunet.jpg" alt="">
+            </div>
+            <div class="infos-track">
+              <h2>music name</h2>
+              <h3>Artist</h3>
+            </div>
+          </div>
+
+          <div class="next-tune">
+            <div class="next-tune-cover">
+              <img src="assets/covers/brunet.jpg" alt="">
+            </div>
+             <div class="infos-track">
+                <h2>music name</h2>
+                <h3>Artist</h3>
+             </div>
+          </div>
+      </article>
+
+    </section>
+  </section> 
+</main>
+
+
+</body>
+
+</html>

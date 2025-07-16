@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Brunet",
+    "artist": "Bushida",
+    "file": "assets/audios/brunet.mp3",
+    "cover": "assets/covers/brunet.jpg",
+    "duration": "3:30"
+  },
+
+    {
+    "title": "Gloria",
+    "artist": "Bushida",
+    "file": "assets/audios/gloria.mp3",
+    "cover": "assets/covers/gloria.jpg",
+    "duration": "3:14"
+  },
+
+  {
+    "title": "Make u mine",
+    "artist": "Bushida",
+    "file": "assets/audios/make_u_mine.mp3",
+    "cover": "assets/covers/make_u_mine.png",
+    "duration": "3:17"
+  }, 
+
+    {
+    "title": "Vida escante",
+    "artist": "Bushida",
+    "file": "assets/audios/vida_escante.mp3",
+    "cover": "assets/covers/vida_escante.jpg",
+    "duration": "2:29"
+  }
+  
+]
