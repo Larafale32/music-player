@@ -41,7 +41,7 @@ music-player/
 ## Exécution
 
 ### Affichage de la page web
-voici l'url de la page : 'http://larafale32.girhub.io/music-player/''
+voici l'url de la page : 'https://larafale32.girhub.io/music-player/''
 
 ### Installation des dépendances Python (optionnel)
 Le fichier `requirements.txt` contient les bibliothèques nécessaires si vous souhaitez :
