@@ -125,8 +125,9 @@ export function changeSong(getCurrentIndex, setCurrentIndex) {
         loadTrack(current);
         showNextTracks(current);
         setCurrentIndex(current); 
-        playButton.style.display = 'flex';
-        pauseButton.style.display = 'none';
+        audio.play()
+        playButton.style.display = 'none';
+        pauseButton.style.display = 'flex';
     });
 
     document.getElementById("prev").addEventListener('click', () => {
@@ -135,8 +136,9 @@ export function changeSong(getCurrentIndex, setCurrentIndex) {
         loadTrack(current);
         showNextTracks(current);
         setCurrentIndex(current); 
-        playButton.style.display = 'flex';
-        pauseButton.style.display = 'none';
+        audio.play()
+        playButton.style.display = 'none';
+        pauseButton.style.display = 'flex';
     });
 }
 
@@ -176,8 +178,12 @@ export function choiceSong(getCurrentIndex, setCurrentIndex) {
         nextTracks[i].addEventListener("click", () => {
             const selectedIndex = parseInt(nextTracks[i].dataset.trackIndex);
             loadTrack(selectedIndex);
+            audio.play()
+            playButton.style.display = 'none';
+            pauseButton.style.display = 'flex';
             showNextTracks(selectedIndex);
             setCurrentIndex(selectedIndex);
+
         });
     }
 }
